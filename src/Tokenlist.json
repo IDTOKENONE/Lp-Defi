@@ -17,6 +17,14 @@
     "oracleHub": "terra1t5k2c2p2kf5as247egz53rj8g8g2x4jw9qte9a"
   },
   "whitelist": {
+    "terra15gwkyepfc6xgca5t5zefzwy42uts8l2m4g40k6": {
+      "symbol": "MIR",
+      "name": "Mirror",
+      "token": "terra15gwkyepfc6xgca5t5zefzwy42uts8l2m4g40k6",
+      "pair": "terra143xxfw5xf62d5m32k3t4eu9s82ccw80lcprzl9",
+      "lpToken": "terra17trxzqjetl0q6xxep0s2w743dhw2cay0x47puc",
+      "status": "LISTED"
+    },
     "terra1hjyl8ymsd9sn59kx733aka4rxfelf43pw6fjjf": {
       "symbol": "IDC",
       "name": "INTERCHAIN DAO COIN",
