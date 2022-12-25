@@ -4,7 +4,7 @@ import { useMemo } from "react"
 import styled from "styled-components"
 import { Link, useParams } from "react-router-dom"
 
-import Summary from "./Summary"
+import FarmList.module from "./FarmList.module"
 import useDashboardAPI, { Transaction } from "rest/useDashboardAPI"
 import { formatMoney, lookup } from "libs/parse"
 import Table from "components/Table"
