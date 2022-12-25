@@ -15,7 +15,7 @@ import AssetIcon from "components/AssetIcon"
 import Select from "components/Select"
 import container from "components/Container"
 
-import Summary from "./Summary"
+import FarmList.module from "./FarmList.module"
 import LatestBlock from "components/LatestBlock"
 import Tooltip from "components/Tooltip"
 import Loading from "components/Loading"
