@@ -13,7 +13,6 @@ import "./App.scss"
 const icons: Dictionary<IconNames> = {
   [MenuKey.MY]: "MyPage",
   [MenuKey.TRADE]: "Trade",
-  [MenuKey.BORROW]: "Borrow",
   [MenuKey.FARM]: "Farm",
 }
 
