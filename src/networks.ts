@@ -18,8 +18,8 @@ const networks: Record<string, MirrorNetworkInfo> = {
       generator: "terra1zgrx9jjqrfye8swykfgmd6hpde60j0nszzupp9",
     },
     mirrorTerraswap: {
-      pair: "terra1amv303y8kzxuegvurh0gug2xe9wkgj65enq2ux",
-      lpToken: "terra17gjf2zehfvnyjtdgua9p9ygquk6gukxe7ucgwh",
+      pair: "terra1ks267e2cr5r3rxsvh728ghg5emz5e7d5kxxks3",
+      lpToken: "terra1xwup7jk3su3mnj5hjj6unsa2hrpc6uwr6t8anr",
     },
     fee: { gasPrice: 0.15, amount: 100000 }, // 0.1 UST
   },
