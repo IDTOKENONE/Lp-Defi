@@ -25,12 +25,12 @@
       "lpToken": "terra17trxzqjetl0q6xxep0s2w743dhw2cay0x47puc",
       "status": "LISTED"
     },
-    "terra1hjyl8ymsd9sn59kx733aka4rxfelf43pw6fjjf": {
-      "symbol": "IDC",
-      "name": "INTERCHAIN DAO COIN",
-      "token": "terra1hjyl8ymsd9sn59kx733aka4rxfelf43pw6fjjf",
-      "pair": "terra1n5jzjvqlylw4kz9cfed2djqvz5qsjlz4kvmkmz",
-      "lpToken": "terra1v8svt8mte4rd3ypqdx9v4l2fxzzqzeactzz6yd",
+    "terra1lvmx8fsagy70tv0fhmfzdw9h6s3sy4prz38ugf": {
+      "symbol": "mUSO",
+      "name": "United States Oil Fund, LP",
+      "token": "terra1lvmx8fsagy70tv0fhmfzdw9h6s3sy4prz38ugf",
+      "pair": "terra1zey9knmvs2frfrjnf4cfv4prc4ts3mrsefstrj",
+      "lpToken": "terra1utf3tm35qk6fkft7ltcnscwml737vfz7xghwn5",
       "status": "LISTED"
     },
     "terra1vsyyg4rs483uzd7jzw5fqqlm2q5n2yd37yylfc": {
