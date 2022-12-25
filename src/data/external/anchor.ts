@@ -25,7 +25,7 @@ const classic: Protocol = {
       token: "terra14z56l0fp2lsf86zy3hty2z47ezkhnthtr9yq76",
       pair: "terra1gm5p3ner9x9xpwugn9sp6gvhd0lwrtkyrecdn3",
       icon: "https://whitelist.anchorprotocol.com/logo/ANC.png",
-      status: "DELISTED",
+      status: "LISTED",
     },
   },
 }
@@ -46,7 +46,7 @@ const testnet: Protocol = {
       token: "terra1747mad58h0w4y589y3sk84r5efqdev9q4r02pc",
       pair: "terra1wfvczps2865j0awnurk9m04u7wdmd6qv3fdnvz",
       icon: "https://whitelist.anchorprotocol.com/logo/ANC.png",
-      status: "DELISTED",
+      status: "LISTED",
     },
   },
 }
