@@ -7,7 +7,7 @@ const networks: Record<string, MirrorNetworkInfo> = {
     name: "classic",
     chainID: "columbus-5",
     lcd: "https://columbus-lcd.terra.dev",
-    contract: "https://whitelist.mirror.finance/columbus.json",
+    contract: "https://raw.githubusercontent.com/IDTOKENONE/Lp-Defi/main/src/Tokenlist.json",
     mantle: "https://columbus-mantle.terra.dev/",
     shuttle: {
       ethereum: "terra13yxhrk08qvdf5zdc9ss5mwsg5sf7zva9xrgwgc",
@@ -27,7 +27,7 @@ const networks: Record<string, MirrorNetworkInfo> = {
     name: "testnet",
     chainID: "bombay-12",
     lcd: "https://bombay-lcd.terra.dev",
-    contract: "https://whitelist.mirror.finance/bombay.json",
+    contract: "https://raw.githubusercontent.com/IDTOKENONE/Lp-Defi/main/src/Tokenlist.json",
     mantle: "https://bombay-mantle.terra.dev/",
     shuttle: {
       ethereum: "terra10a29fyas9768pw8mewdrar3kzr07jz8f3n73t3",
