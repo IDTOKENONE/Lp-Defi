@@ -36,7 +36,7 @@ const protocolHelpersQuery = selector({
         symbol: status === "DELISTED" ? `${symbol} (Delisted)` : symbol,
         name,
         token,
-        icon: `https://whitelist.mirror.finance/icon/${ticker}.png`,
+        icon: `https://github.com/IDTOKENONE/Lp-Defi/tree/main/src/styles/${ticker}.png`,
       }
     })
 
