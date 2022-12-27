@@ -73,9 +73,7 @@ const Gov = () => {
           align: "right",
         },
         
-          align: "right",
-          fixed: "right",
-        },
+          
       ]}
       dataSource={dataSource}
     />
