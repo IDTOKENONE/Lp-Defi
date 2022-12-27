@@ -1,5 +1,5 @@
 export enum FarmType {
-  L0NG= "long",
+  LONG = "long",
   SHORT = "short",
 }
 
