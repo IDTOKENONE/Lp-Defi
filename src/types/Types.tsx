@@ -12,7 +12,7 @@ export enum TradeType {
  //BORROW = "borrow",
   //SHORT = "short",
   //EDIT = "edit",
-  CLOSE = "close",
+  //CLOSE = "close",
 //}
 
 export enum PoolType {
