@@ -71,9 +71,6 @@ const Gov = () => {
           render: (amount) =>
             gt(amount, 0) && <Formatted symbol="MIR">{amount}</Formatted>,
           align: "right",
-        },
-        {
-          
-}
+        }
 
 export default Gov
