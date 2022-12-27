@@ -3,7 +3,7 @@ export const FINDER = "https://terrascope.info"
 export const EXTENSION = "https://terra.money/extension"
 export const CHROME = "https://google.com/chrome"
 export const DOCS = "https://docs.mirror.finance"
-export const ICON_URL = "https://github.com/IDTOKENONE/Lp-Defi/src/ICON/"
+export const ICON_URL = "https://github.com/IDTOKENONE/Lp-Defi/tree/main/src/Icon"
 
 /* terra:wasm */
 export const WASMQUERY = "WasmContractsContractAddressStore"
