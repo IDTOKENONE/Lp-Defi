@@ -72,5 +72,14 @@ const Gov = () => {
             gt(amount, 0) && <Formatted symbol="MIR">{amount}</Formatted>,
           align: "right",
         },
+        
+          align: "right",
+          fixed: "right",
+        },
+      ]}
+      dataSource={dataSource}
+    />
+  )
+}
 
 export default Gov
