@@ -7,8 +7,10 @@ const networks: Record<string, MirrorNetworkInfo> = {
     name: "classic",
     chainID: "columbus-5",
     lcd: "https://columbus-lcd.terra.dev",
-    contract: "https://raw.githubusercontent.com/IDTOKENONE/Lp-Defi/main/src/Tokenlist.json",
+    contract:
+      "https://raw.githubusercontent.com/IDTOKENONE/Lp-Defi/main/src/Tokenlist.json",
     mantle: "https://columbus-mantle.terra.dev/",
+    walletconnectID: 2,
     shuttle: {
       ethereum: "terra13yxhrk08qvdf5zdc9ss5mwsg5sf7zva9xrgwgc",
       bsc: "terra1g6llg3zed35nd3mh9zx6n64tfw3z67w2c48tn2",
@@ -18,8 +20,8 @@ const networks: Record<string, MirrorNetworkInfo> = {
       generator: "terra1zgrx9jjqrfye8swykfgmd6hpde60j0nszzupp9",
     },
     mirrorTerraswap: {
-      pair: "terra1ks267e2cr5r3rxsvh728ghg5emz5e7d5kxxks3",
-      lpToken: "terra1xwup7jk3su3mnj5hjj6unsa2hrpc6uwr6t8anr",
+      pair: "terra1amv303y8kzxuegvurh0gug2xe9wkgj65enq2ux",
+      lpToken: "terra17gjf2zehfvnyjtdgua9p9ygquk6gukxe7ucgwh",
     },
     fee: { gasPrice: 0.15, amount: 100000 }, // 0.1 UST
   },
@@ -27,8 +29,9 @@ const networks: Record<string, MirrorNetworkInfo> = {
     name: "testnet",
     chainID: "bombay-12",
     lcd: "https://bombay-lcd.terra.dev",
-    contract: "https://raw.githubusercontent.com/IDTOKENONE/Lp-Defi/main/src/Tokenlist.json",
+    contract: "https://whitelist.mirror.finance/bombay.json",
     mantle: "https://bombay-mantle.terra.dev/",
+    walletconnectID: 0,
     shuttle: {
       ethereum: "terra10a29fyas9768pw8mewdrar3kzr07jz8f3n73t3",
       bsc: "terra1paav7jul3dzwzv78j0k59glmevttnkfgmgzv2r",
@@ -49,6 +52,7 @@ const networks: Record<string, MirrorNetworkInfo> = {
     lcd: "https://moonshine-lcd.terra.dev",
     contract: "https://whitelist.mirror.finance/moonshine.json",
     mantle: "https://moonshine-mantle.terra.dev",
+    walletconnectID: 0,
     shuttle: {
       ethereum: "",
       bsc: "",
