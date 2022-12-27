@@ -1,6 +1,6 @@
 export enum FarmType {
-  LP = "long",
-  SWAP = "short",
+  L0NG= "long",
+  SHORT = "short",
 }
 
 export enum TradeType {
@@ -9,11 +9,11 @@ export enum TradeType {
 }
 
 //export enum MintType {
-  BORROW = "borrow",
-  SHORT = "short",
-  EDIT = "edit",
+ //BORROW = "borrow",
+  //SHORT = "short",
+  //EDIT = "edit",
   CLOSE = "close",
-}//
+//}
 
 export enum PoolType {
   PROVIDE = "provide",
@@ -21,6 +21,6 @@ export enum PoolType {
 }
 
 //export enum StakeType {
-  STAKE = "stake",
-  UNSTAKE = "unstake",
-}//
+  //STAKE = "stake",
+  //UNSTAKE = "unstake",
+//}
