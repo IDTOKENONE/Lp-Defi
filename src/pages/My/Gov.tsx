@@ -72,8 +72,23 @@ const Gov = () => {
             gt(amount, 0) && <Formatted symbol="MIR">{amount}</Formatted>,
           align: "right",
         },
-        
-          
+        {
+          key: "actions",
+          dataIndex: "id",
+          render: (id, { reward }) => {
+            const hasReward = reward && gt(reward, 0)
+            const path = getPath(MenuKey.GOV)
+            const to = [path, "poll", id, hasReward ? "claim" : ""].join("/")
+
+            return (
+              <LinkButton to={to} size="xs" outline>
+                {hasReward ? "SOON" : "Poll Detail"}{" "}
+              </LinkButton>
+            )
+          },
+          align: "right",
+          fixed: "right",
+        },
       ]}
       dataSource={dataSource}
     />
