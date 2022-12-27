@@ -9,10 +9,10 @@ export enum TradeType {
 }
 
 export enum MintType {
- //BORROW = "borrow",
-  //SHORT = "short",
-  //EDIT = "edit",
-  //CLOSE = "close",
+  BORROW = "borrow",
+  SHORT = "short",
+  EDIT = "edit",
+  CLOSE = "close",
 }
 
 export enum PoolType {
@@ -21,6 +21,6 @@ export enum PoolType {
 }
 
 export enum StakeType {
-  //STAKE = "stake",
-  //UNSTAKE = "unstake",
+  STAKE = "stake",
+  UNSTAKE = "unstake",
 }
